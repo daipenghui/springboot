@@ -18,21 +18,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>beans</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>dao</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>iservice</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>service-impl</artifactId>
