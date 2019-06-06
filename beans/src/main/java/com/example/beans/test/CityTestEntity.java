@@ -1,9 +1,9 @@
 package com.example.beans.test;
 
 public class CityTestEntity {
-    String name;
+    private String name;
 
-    String age;
+    private String age;
     public String getName() {
         return name;
     }
