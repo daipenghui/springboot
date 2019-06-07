@@ -7,7 +7,6 @@
         <artifactId>father</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.example</groupId>
     <artifactId>beans</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>beans</name>
