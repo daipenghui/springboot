@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 @Service
-@Component
 public class CityServiceImpl implements ICItyService {
-    @Autowired
+
+    @Resource
     private CityDao city;
     @Override
     public String show() {
