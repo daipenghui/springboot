@@ -1,5 +1,6 @@
 package com.example.web.test;
 
+import com.example.iservice.test.ICItyService;
 import com.example.serviceimpl.test.CityServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CityController {
 
     @Autowired
-    private CityServiceImpl cityService;
+    private ICItyService cityService;
 
     @RequestMapping("/show")
     public String show(){
